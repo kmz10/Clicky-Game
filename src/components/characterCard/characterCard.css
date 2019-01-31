@@ -1,0 +1,41 @@
+  
+  .columns{
+    justify-content: center;
+    padding:0 70px;
+   margin-top:40px;
+    display: block;
+    margin-left:  auto;
+    margin-right: auto;
+    display:flex;
+    flex-wrap: wrap;
+    width:600px;
+  }
+
+ .column-test{
+        background:#ffffff; 
+        border:solid 2px #006680;
+        border-radius: 10px;
+        height: 120px;
+        width: 120px;
+        margin:5px;
+        overflow: hidden;
+        box-shadow: 0 3px 6px #999, 0 3px 6px #999;
+ 
+ }
+
+ .column-test:hover{
+            height: 140px;
+            width: 140px;
+            animation:ease-in;
+            transition-duration: .5s;
+            box-shadow: 0 3px 6px #999, 0 3px 6px #999;
+           
+  }
+
+  .column-test img:hover{
+                height: 140px;
+                width: 140px;
+                margin: auto auto;  
+                animation: ease-in;
+       
+   }
